@@ -6,7 +6,7 @@ class SpotifyOauthClient():
 
         self.CLIENT_ID = "5338801173a54244ab3a5fd6f6070fda"
         self.CLIENT_SECRET = "d1f0a72005144ee6a86ae3b846c31cc8"
-        self.REDIRECT_URI = "http://127.0.0.1:5000/redirect/"
+        self.REDIRECT_URI = "https://spoti-enhancer-8z82.onrender.com/redirect/"
         self.SCOPE = "user-top-read user-read-private user-follow-read playlist-read-private playlist-read-collaborative playlist-modify-public playlist-modify-private"
         self.OAUTH_AUTHORIZE_URL = "https://accounts.spotify.com/authorize"
         self.OAUTH_TOKEN_URL = "https://accounts.spotify.com/api/token"
